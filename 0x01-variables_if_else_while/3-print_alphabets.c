@@ -5,18 +5,24 @@
 *Description: print the required results
 *Return: integer value 0
 */
-
 int main(void)
 {
-	char ch;
+	char c = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (c <= 'z')
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
+		putchar(c);
+		c++;
 	}
+
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
+	}
+
 	putchar('\n');
 	return (0);
 }
