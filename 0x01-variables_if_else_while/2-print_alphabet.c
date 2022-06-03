@@ -28,7 +28,7 @@ int main(void)
 	}
 
 
-	putchar('\n');
+	printf('\n');
 
 	return (0);
 
