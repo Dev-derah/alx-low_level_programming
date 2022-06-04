@@ -13,30 +13,30 @@ int main(void)
 
 {
 
-	char d = '0';
+	int num = '0';
 
 
-	while (d <= '9')
+	while (num <= '9')
 
 	{
 
-		putchar(d);
+		putchar(num);
 
-		d++;
+		num++;
 
 	}
 
 
-	char c = 'a';
+	char x = 'a';
 
 
-	while (c <= 'f')
+	while (x <= 'f')
 
 	{
 
-		putchar(c);
+		putchar(x);
 
-		c++;
+		x++;
 
 	}
 
