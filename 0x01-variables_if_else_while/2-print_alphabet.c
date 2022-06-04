@@ -1,34 +1,32 @@
 #include <stdio.h>
-#include <ctype.h>
+
+#include <stdlib.h>
+
 /**
-*main - return the required output
-*
-* Description: print a to z in upper and lower
-*
-* Return: return integer value 0
+* main - main block
+* Description:Print a-z followed by new line
+*Return: 0
 */
 
 int main(void)
+
 {
 
-	char alphabet;
+	char x = 'a';
 
 
-	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+	while (x <= 'z')
+
 	{
 
-		putchar(tolower(alphabet));
+		putchar(x);
 
-	}
-	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
-	{
-
-		putchar(alphabet);
+		x++;
 
 	}
 
 
-	printf('\n');
+	putchar('\n');
 
 	return (0);
 
