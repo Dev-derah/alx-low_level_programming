@@ -10,7 +10,8 @@ void print_alphabet(void)
 
 {
 
-	int i, n;
+	int i;
+	int n = 1;
 
 	while (n <= 10)
 	{
