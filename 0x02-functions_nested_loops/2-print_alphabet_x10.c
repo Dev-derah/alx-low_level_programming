@@ -1,29 +1,34 @@
 #include "main.h"
 
 /**
-* print_alphabet - Prints the alphabet in lowercase.
+* Description - Prints the alphabet in lowercase.
 *
 * Return: Always 0 (Success)
 */
 
 void print_alphabet_x10(void)
 
+
+
 {
 
-	int i;
-	int n = 1;
+	int a, b;
 
-	while (n <= 10)
+
+	for (a = 0; a <= 9; a++)
+
 	{
 
-
-		for (i = 97; i <= 122; i++)
+		for (b = 97; b <= 122; b++)
 
 		{
 
-			_putchar(i);
+			_putchar(b);
 
 		}
+
 		_putchar('\n');
+
 	}
+
 }
